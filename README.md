@@ -8,7 +8,7 @@
 ### Code and Resources Used
 
 R Version: 3.6.1
-Packages: tidyverse: dplyr, ggplot2; readr, lubridate
+Packages: tidyverse: dplyr, ggplot2; readr, lubridate 
 data at https://divvy-tripdata.s3.amazonaws.com/index.html  
 data provided by https://artscience.blog/home/divvy-dataviz-case-study  
 data used in accordance with https://www.divvybikes.com/data-license-agreement  
