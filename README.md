@@ -1,11 +1,11 @@
-### Cyclistic_Case_Study
+# Cyclistic_Case_Study
 
 ## Project Overview 
 
 * Analyzed 12 months of Cyclistic trip data. Cyclistic is a fictional bike rental company. 
 * Project goal was identifying and describing how the two main rider types--casual and member--use Cyclistic bikes differently.
 
-# Code and Resources Used
+### Code and Resources Used
 
 R Version: 3.6.1
 Packages: tidyverse: dplyr, ggplot2; readr, lubridate
@@ -13,7 +13,7 @@ data at https://divvy-tripdata.s3.amazonaws.com/index.html
 data provided by https://artscience.blog/home/divvy-dataviz-case-study  
 data used in accordance with https://www.divvybikes.com/data-license-agreement  
 
-# Date Cleaning
+### Data Cleaning
 
 After downloading the data, the following changes were made to the data file:
 * Changed "rideid" and "rideable type" to character variables
@@ -27,7 +27,7 @@ After downloading the data, the following changes were made to the data file:
 
 Please note that since the file was saved as a .csv several of the changes above--specifically the changes to "started_at" and "ended_at" and "rideid" are not saved in the cleaned....csv file. Thus, these transformations are included in the EDA notebook.
 
-# EDA
+### EDA
 
 Analyzing the distributions of the data with particular attention to identifying differences in use for the two rider types--casual and member. Please see a few highlights of the EDA below.
 
