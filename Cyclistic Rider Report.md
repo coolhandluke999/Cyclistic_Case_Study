@@ -23,6 +23,7 @@ After downloading the data, the following changes were made to the data file:
 * Create a "trip_duration_mins" column--this column is the time difference between "started_at" and "ended_at"
 * Removed unnecessary columns--"start_lat", "start_lng", "end_lat", "end_lng"
 * Reviewed data for NAs, and outliers. "....station_name" contains a high number of NAs. Trip duration has a small percentage of signifcant trip_duration outliers.
+* Removed observations with a trip duration of 0 or less minutes.
 * Saved as .csv
 
 Please note that since the file was saved as a .csv several of the changes above--specifically the changes to "started_at" and "ended_at" and "rideid" are not saved in the cleaned....csv file. Thus, these transformations are included in the EDA notebook.
