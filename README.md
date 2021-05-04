@@ -31,13 +31,6 @@ Please note that since the file was saved as a .csv several of the changes above
 
 Analyzing the distributions of the data with particular attention to identifying differences in use for the two rider types--casual and member. Please see a few highlights of the EDA below.
 
-[1] "All Riders" 
-0%0.125%850%14.675%26.7100%58720 
-[1] "Casual Riders" 
-0%0.125%11.650%21.275%40.3100%55683.9 
-[1] "Member Riders" 
-0%0.125%6.550%11.575%20.1100%58720 
-
 ![viz1](https://user-images.githubusercontent.com/36319226/116950579-4a538400-ac3a-11eb-91e1-84ee25697659.png)
 ![viz2](https://user-images.githubusercontent.com/36319226/116950583-4cb5de00-ac3a-11eb-8449-a4e685db8675.png)
 ![viz3](https://user-images.githubusercontent.com/36319226/116950584-4f183800-ac3a-11eb-9e85-2b7d0a503e23.png)
