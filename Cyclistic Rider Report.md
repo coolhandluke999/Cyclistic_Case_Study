@@ -2,7 +2,7 @@
 
 ### Purpose
 
-The goal of this analysis was identifying the different ways the two main groups of riders--casual and member--use Cyclistic bicycles. The two groups of riders consist of: casual riders who pay for bicylce rentals through single-ride or full-day passess, and member riders who purchase an annual subscription for the bicycle rentals. Cyclistic management requested an analysis of their rider data, for the previous 12 months, for the purpose of identifying differences between casual and member riders. Cyclistic will utilize this analysis in assisting the company design marketing strategies for converting casual riders into annual members.
+The goal of this analysis is to identify the different ways the two main groups of riders--casual and member--use Cyclistic bicycles. The two groups of riders consist of: casual riders who pay for bicylce rentals through single-ride or full-day passess, and member riders who purchase an annual subscription for the bicycle rentals. Cyclistic management requested an analysis of their rider data, from the previous 12 months, for the purpose of identifying differences between casual and member riders. Cyclistic will utilize this analysis in assisting the company design marketing strategies for converting casual riders into annual members.
 
 ### Data Used
 
@@ -26,7 +26,7 @@ After downloading the data, the following changes were made to the data file:
 * Removed observations with a trip duration of 0 or less minutes.
 * Saved as .csv
 
-Please note that since the file was saved as a .csv several of the changes above--specifically the changes to "started_at" and "ended_at" and "rideid" are not saved in the cleaned....csv file. Thus, these transformations are included in the EDA notebook.
+Please note that since the file was saved as a .csv several of the changes above-specifically the changes to "started_at" and "ended_at" and "rideid" are not saved in the cleaned .csv file. Thus, these transformations are included in the EDA notebook.
 
 ### Analysis
 
@@ -74,7 +74,7 @@ Analyzing the data for trips with a duration of less than 30 minutes, we see som
 
 ![trips30](https://user-images.githubusercontent.com/36319226/117047148-6270e500-acc6-11eb-9a00-45011a589877.png)
 
-Second, we see a 20% decrease in the mean trip duration for members(from 14.9 mins to 11.8 mins). While casual riders see their mean trip duration fall 43% (from 26.3 mins to 14.9 mins). Removing trips with longer durations we see the member and casual riders become more similar in behavior. The main difference between the two rider groups being the much greater frequency in trips under 10 minutes.
+Second, we see a 20% decrease in the mean trip duration for members(from 14.9 mins to 11.8 mins). While casual riders see their mean trip duration fall 43% (from 26.3 mins to 14.9 mins). Removing trips with longer durations we see the member and casual riders become more similar in behavior. The main difference between the two rider groups is the much greater frequency in trips under 10 minutes.
 
 ![trips30_bygroup](https://user-images.githubusercontent.com/36319226/117047170-6ac92000-acc6-11eb-8018-d54ae7b28335.png)
 
@@ -89,7 +89,7 @@ Next, we examined the day-of-the-week riding tendencies of the two groups. This 
 
 ![Day_bygroup](https://user-images.githubusercontent.com/36319226/117051752-c0ec9200-accb-11eb-80c2-1d6c011437c7.png)
 
-With the above visualization we see a difference in the day-of-the-week riding patterns between the casual and member groups. The casual group takes more weekend trips and less trips on weekdays than the member group. While the member group has less variability in the number of trips based on the day-of-the-week.  Saturday is the most popular day for both groups. Saturday, for casual riders, is also the only day-of-the-week where they have a higher trip count than any day-of-the-week for members.
+With the above visualization we see a difference in the day-of-the-week riding patterns between the casual and member groups. The casual group takes more weekend trips and less trips on weekdays than the member group, while the member group has less variability in the number of trips based on the day-of-the-week.  Saturday is the most popular day for both groups. Saturday, for casual riders, is also the only day-of-the-week where they have a higher trip count than any day-of-the-week for members.
 
 ![Duration_byDay](https://user-images.githubusercontent.com/36319226/117052354-7ddeee80-accc-11eb-9e2b-ade0cfd67735.png)
 
